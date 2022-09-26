@@ -45,11 +45,11 @@ function addFlashcard(){
     answer.value = '';
 }
 
-/* function deletFlashcards(){
+function deletFlashcards(){
     localStorage.clear();
     flashcards.innerHTML = '';
     contentArray = [];
-} */
+}
 
 function showCreateCardBox(){
     createBox.style.display = "block";
